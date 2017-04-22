@@ -1,0 +1,21 @@
+{
+  "name": "webpackbuildsystem",
+  "version": "1.0.0",
+  "description": "Webpack Build System",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env=dev --progress --profile --colors",
+    "build:dev": "webpack --env=dev --progress --profile --colors",
+    "build:prod": "webpack --env=prod --progress --profile --colors"
+  },
+  "repository": "npm/npm",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.28.0",
+    "path": "^0.12.7",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  }
+}
