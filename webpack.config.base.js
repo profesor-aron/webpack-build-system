@@ -29,10 +29,7 @@ module.exports = function (env) {
 	      filename: '../index.html',
 	      template: './app/index.html'
 	    })
-	  ],
-	  resolveLoader: {
-	    moduleExtensions: ['-loader']
-	  }	  
+	  ]	  
 	}
 
 }
